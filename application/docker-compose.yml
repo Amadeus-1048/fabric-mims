@@ -1,0 +1,29 @@
+version: '2.1'
+
+networks:
+  fabric_network:
+    external:
+      name: fabric_network # 已经存在的外部网络
+
+services:
+  # 后端
+  fabric-mims.server:
+    # 改动代码后需要编译镜像（进入 server 执行 ./build.sh）
+    image: fabric-mims.server:latest
+    container_name: fabric-mims.server
+    ports:
+      - "8888:8888"
+    volumes:
+      - /usr/share/zoneinfo/Asia/Shanghai:/usr/share/zoneinfo/Asia/Shanghai
+      - ./../network/crypto-config:/network/crypto-config
+    networks:
+      - fabric_network
+  # 前端
+  fabric-mims.web:
+    # 改动代码后需要编译镜像（进入 web 执行 ./build.sh）
+    image: fabric-mims.web:latest
+    container_name: fabric-mims.web
+    ports:
+      - "8000:80"
+    networks:
+      - fabric_network
