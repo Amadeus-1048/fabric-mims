@@ -1,4 +1,4 @@
-# fabric-mims(zh)
+# fabric-mims(ZH)
 
 基于区块链和Hyperledger Fabric的医疗信息管理系统
 
@@ -7,6 +7,16 @@
 
 
 ## 教程
+
+### 环境要求
+
+1. Linux / Mac OS
+2. Docker、Docker Compose
+3. Golang
+
+
+
+
 
 ### 启动 (本地环境)
 
@@ -22,7 +32,7 @@
 
 
 
-# fabric-mims(en)
+# fabric-mims(EN)
 
 A medical information management system based on blockchain and Hyperledger Fabric.
 
@@ -33,6 +43,14 @@ A medical information management system based on blockchain and Hyperledger Fabr
 
 
 ## Tutorial
+
+### Environment
+
+1. Linux / Mac OS
+2. Docker、Docker Compose
+3. Golang
+
+
 
 ### Startup (Local Development)
 
