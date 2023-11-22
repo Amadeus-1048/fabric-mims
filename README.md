@@ -63,7 +63,7 @@ A medical information management system based on blockchain and Hyperledger Fabr
 
 1. Linux / Mac OS
 2. Docker、Docker Compose
-3. Golang(>18)
+3. Golang(>1.18)
 4. Node(14.x)
 
 
