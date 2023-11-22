@@ -23,6 +23,7 @@
 1. 在 `fabric-mims/network`目录执行 `./start.sh`，启动区块链网络.
 2. 在 `fabric-mims/application/server` 目录执行 `go run main.go`，启动系统后端.
 3. 在 `fabric-mims/application/web` 目录执行 `yarn run dev` ，启动系统前端.
+4. 在 `fabric-mims/network/explorer` 目录执行 ./start.sh ，启动区块链浏览器.
 
 
 
@@ -71,6 +72,7 @@ A medical information management system based on blockchain and Hyperledger Fabr
 1. Execute `./start.sh` in the `fabric-mims/network` directory to start blockchain network.
 2. Execute `go run main.go` in the `fabric-mims/application/server` directory to start backend.
 3. Execute `yarn run dev` in the `fabric-mims/application/web` directory to start frontend.
+4. Execute `./start.sh` in the `fabric-mims/network/explorer` directory to start blockchain explorer.
 
 
 
